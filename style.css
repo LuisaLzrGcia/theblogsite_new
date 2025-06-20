@@ -91,11 +91,11 @@ body {
 
 /* Estilos para el footer */
 .footer {
-  background-color: #007bff; /* Un color azul llamativo para diferenciar el footer */
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-  width: 100%;
+    background-color: rgb(255, 214, 234); /* Un color azul llamativo para diferenciar el footer */
+    color: rgb(103, 34, 34);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
 }
 
 /* Sección  home*/
