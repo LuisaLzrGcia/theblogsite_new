@@ -10,24 +10,18 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   min-height: 100vh;
   /* Asegura que el footer se quede en la parte inferior */
-=======
   min-height: 100vh; /* Asegura que el footer se quede en la parte inferior */
->>>>>>> f242828 (Actualización de páginas, favicon e imágenes únicas por sección)
 }
 
 /*------------------------------------------navegador------------------------------------------------------*/
 /* Fondo general pastel azul */
 .navbar {
-
-<<<<<<< HEAD
   background-color: #d0e8f2;
   /* Azul pastel claro */
-=======
-  background-color: #d0e8f2; /* Azul pastel claro */
->>>>>>> f242828 (Actualización de páginas, favicon e imágenes únicas por sección)
+  background-color: #66dfdf; /* Azul pastel claro */
+
   padding: 15px 0;
   box-shadow: 0 2px 8px rgba(128, 179, 255, 0.3);
 }
@@ -40,8 +34,7 @@ body {
   gap: 40px;
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-=======
+
 }
 
 /* Estilos base para todos los enlaces */
@@ -169,7 +162,7 @@ body {
     margin: 0;
     display: flex; /* Para que los elementos Nav estén en línea */
     justify-content: space-around; /* Distribuye los elementos uniformemente */
->>>>>>> f242828 (Actualización de páginas, favicon e imágenes únicas por sección)
+
 }
 
 /* Estilos base para todos los enlaces */
@@ -387,11 +380,11 @@ body {
   padding: 10px;
   }
 }
-=======
+
     background-color: #007bff; /* Un color azul llamativo para diferenciar el footer */
     color: white;
     padding: 15px 0;
     text-align: center;
     width: 100%;
 }
->>>>>>> f242828 (Actualización de páginas, favicon e imágenes únicas por sección)
+
