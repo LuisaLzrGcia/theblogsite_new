@@ -58,7 +58,7 @@ body {
 .navbar nav ul li:nth-child(3) a:hover {
   background-color: #d4f4e1; /* Verde agua pastel */
   color: #3c8c76;
-
+}
 
 /* Estilo para botón activo */
 .navbar-active {
