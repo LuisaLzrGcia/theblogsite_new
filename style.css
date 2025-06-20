@@ -13,46 +13,71 @@ body {
     min-height: 100vh; /* Asegura que el footer se quede en la parte inferior */
 }
 
-/* Estilos para la barra de navegación */
+/*------------------------------------------navegador------------------------------------------------------*/
+/* Fondo general pastel azul */
 .navbar {
-    background-color: #333; /* Color de fondo oscuro para la barra de navegación */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+  background-color: #d0e8f2; /* Azul pastel claro */
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(128, 179, 255, 0.3);
 }
 
-.navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Para que los elementos Nav estén en línea */
-    justify-content: space-around; /* Distribuye los elementos uniformemente */
+/* Contenedor de los enlaces */
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar li {
-    flex-grow: 1; /* Permite que cada 'Nav' ocupe el mismo espacio */
-    border-right: 1px solid #555; /* Separador entre los elementos Nav */
+/* Estilos base para todos los enlaces */
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #555; /* Gris suave */
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
 }
 
-.navbar li:last-child {
-    border-right: none; /* Eliminar el borde derecho del último elemento */
+/* Colores individuales por botón */
+.navbar nav ul li:nth-child(1) a:hover {
+  background-color: #fce1e4; /* Rosa pastel */
+  color: #a94442;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
+.navbar nav ul li:nth-child(2) a:hover {
+  background-color: #fdf3c6; /* Amarillo pastel */
+  color: #a57d00;
 }
 
-.navbar a:hover {
-    background-color: #575757;
+.navbar nav ul li:nth-child(3) a:hover {
+  background-color: #d4f4e1; /* Verde agua pastel */
+  color: #3c8c76;
 }
 
+/* Estilo para botón activo */
 .navbar-active {
-    background-color: #575757;
+  background-color: #cfe2ff; /* Azul pastel más fuerte */
+  color: #004085;
+  border-bottom: 3px solid #94c2f0;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin-left: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: #94c2f0; /* Fondo azul pastel igual que el navbar */
 }
 
+
+/*------------------------------------------------------------------------------------------------*/
 /* Estilos para el contenido principal */
 .content {
     flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
