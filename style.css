@@ -248,3 +248,52 @@ body {
   padding: 10px;
   }
 }
+/* ------------------- Estilos para Contáctanos y Formulario ------------------- */
+
+.content h1 {
+  color: #e91e63; 
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #4a148c; 
+}
+.form-box label {
+  color: #009688;
+  font-weight: bold;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  color: #3e2723;
+}
+
+.form-box button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-box button:hover {
+  background-color: #0056b3;
+}
+
