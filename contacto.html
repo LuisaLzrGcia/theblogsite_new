@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Mi Página Web</title>
+    <title>Contacto - Mi Página Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,19 +12,31 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="quienes-somos.html">Quienes Somos</a></li>
-                <li><a href="#" class="navbar-active">Contacto</a></li>
+                <li><a href="contact.html" class="navbar-active">Contacto</a></li>
             </ul>
         </nav>
     </header>
-
     <main class="content">
-        <h1>Contenido Principal</h1>
-        <p>Este es el área donde irá el contenido principal de tu página. Puedes añadir texto, imágenes, videos, etc.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </main>
+        <h1>Contáctanos</h1>
+        <p>¿Tienes alguna duda o sugerencia? Puedes escribirnos a través de los siguientes medios:</p>
 
-    <footer class="footer">
-        <p>&copy; 2025 Mi Página Web. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+        <ul>
+            <li><strong>Correo electrónico:</strong> JavaWorks@blog.com</li>
+            <li><strong>Teléfono:</strong> +52 55 1234 5678</li>
+        </ul>
+
+        <h2>Formulario de contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
