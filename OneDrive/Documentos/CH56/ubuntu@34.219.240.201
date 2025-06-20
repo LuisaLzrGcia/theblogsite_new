@@ -1,0 +1,11 @@
+[Unit]
+Description=Servicio de ejemplo - Echo Hello
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -c 'while true; do echo "Hola desde el servicio" >> /var/log/hello.log; sleep 10; done'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
