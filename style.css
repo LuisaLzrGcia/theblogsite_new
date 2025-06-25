@@ -7,20 +7,28 @@ html {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 90px; /* Espacio para dejar visible el contenido debajo del navbar */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* Asegura que el footer se quede en la parte inferior */
-  min-height: 100vh; /* Asegura que el footer se quede en la parte inferior */
 }
 
 /*------------------------------------------navegador------------------------------------------------------*/
 .navbar {
-  background: linear-gradient(90deg, #7BDFF2 60%, #F7D6E0 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que esté encima de todo */
+  background: linear-gradient(90deg, #7BDFF2 60%, #EFF7F6 100%);
   padding: 15px 0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
 }
+
 
 .navbar nav {
   display: flex;
