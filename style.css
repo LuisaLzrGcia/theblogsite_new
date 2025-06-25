@@ -431,7 +431,7 @@ body {
 }
 
 /* Media Query para dispositivos móviles (ej. pantallas de hasta 768px de ancho) */
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .contenedor-imagen .imagen-desktop {
     display: none; /* Oculta la imagen de desktop en pantallas pequeñas */
   }
@@ -440,5 +440,6 @@ body {
     display: block; /* Muestra la imagen de móvil en pantallas pequeñas */
     width: 100%;     /* Asegura que la imagen sea responsiva */
     height: auto;
+    margin-bottom: 15px;
   }
 }
