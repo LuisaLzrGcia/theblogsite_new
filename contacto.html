@@ -8,9 +8,9 @@
     <link rel="icon" href="Pic/lollipop.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
-
 </head>
 
+</head>
 <body>
     <header class="navbar">
         <nav>
@@ -22,6 +22,69 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <div class="container fondo-3 py-5">
+            <div class="d-flex justify-content-center">
+                <div class="w-100" style="max-width: 700px;">
+
+                    <!-- Bloque centrado -->
+                    <div class="text-center mb-4">
+                        <h1 class="fw-bold color-1">Contáctanos</h1>
+                        <p class="fs-5">¿Tienes alguna duda o sugerencia? Puedes escribirnos a través de los siguientes medios:</p>
+                        <p class="mb-1"><strong>Correo electrónico:</strong> JavaWorks@blog.com</p>
+                        <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
+                    </div>
+
+                    <!-- Tarjeta con formulario -->
+                    <div class="card shadow p-4 fondo-3">
+
+                        <!-- ALERTA -->
+                        <div id="alerta" class="alert alert-success alert-dismissible fade d-none" role="alert">
+                            Mensaje enviado
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                        </div>
+
+                        <h2 class="mb-4 color-5">Formulario de contacto</h2>
+
+                        <form id="formularioContacto">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="correo" name="correo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn text-white" style="background-color: #F2B5D4;">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('formularioContacto').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const alerta = document.getElementById('alerta');
+            alerta.classList.remove('d-none');
+            alerta.classList.add('show');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+
+    <footer class="footer">
+        <h3>Dulce Nostalgía</h3>
     <main class="content">
         <h1>Contáctanos</h1>
         <p>¿Tienes alguna duda o sugerencia? Puedes escribirnos a través de los siguientes medios:</p>
@@ -47,7 +110,7 @@
     </main>
 
     <footer class="footer">
-        <h3>Dulce Nostalgía</h3>
+                <h3>Dulce Nostalgía</h3>
         <u1>
             <p>Luisa Lázaro, Gisella Ancelmo, Alexis Soto, Francisco Romero, Alain García, Omar Águila, Iván Camacho</p>
             <li>Contacto: contacto@dulcenostalgía.com</li>
@@ -56,6 +119,7 @@
     </footer>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
