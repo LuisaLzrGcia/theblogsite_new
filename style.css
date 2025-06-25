@@ -12,7 +12,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   /* Asegura que el footer se quede en la parte inferior */
-  min-height: 100vh; /* Asegura que el footer se quede en la parte inferior */
+  min-height: 100vh;
+  /* Asegura que el footer se quede en la parte inferior */
 }
 
 /*------------------------------------------navegador------------------------------------------------------*/
@@ -20,7 +21,8 @@ body {
 .navbar {
   background-color: #d0e8f2;
   /* Azul pastel claro */
-  background-color: #66dfdf; /* Azul pastel claro */
+  background-color: #66dfdf;
+  /* Azul pastel claro */
 
   padding: 15px 0;
   box-shadow: 0 2px 8px rgba(128, 179, 255, 0.3);
@@ -40,7 +42,8 @@ body {
 /* Estilos base para todos los enlaces */
 .navbar nav ul li a {
   text-decoration: none;
-  color: #555; /* Gris suave */
+  color: #555;
+  /* Gris suave */
   font-weight: bold;
   font-family: 'Segoe UI', sans-serif;
   font-size: 16px;
@@ -51,27 +54,32 @@ body {
 
 /* Colores individuales por botón */
 .navbar nav ul li:nth-child(1) a:hover {
-  background-color: #fce1e4; /* Rosa pastel */
+  background-color: #fce1e4;
+  /* Rosa pastel */
   color: #a94442;
 }
 
 .navbar nav ul li:nth-child(2) a:hover {
-  background-color: #fdf3c6; /* Amarillo pastel */
+  background-color: #fdf3c6;
+  /* Amarillo pastel */
   color: #a57d00;
 }
 
 .navbar nav ul li:nth-child(3) a:hover {
-  background-color: #d4f4e1; /* Verde agua pastel */
+  background-color: #d4f4e1;
+  /* Verde agua pastel */
   color: #3c8c76;
 }
 
 /* Estilo para botón activo */
 .navbar-active {
 
-  background-color: #cfe2ff; /* Azul pastel más fuerte */
+  background-color: #cfe2ff;
+  /* Azul pastel más fuerte */
   color: #004085;
   border-bottom: 3px solid #94c2f0;
 }
+
 .logo {
   height: 60px;
   width: auto;
@@ -80,7 +88,8 @@ body {
   margin-left: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  background-color: #94c2f0; /* Fondo azul pastel igual que el navbar */
+  background-color: #94c2f0;
+  /* Fondo azul pastel igual que el navbar */
 
 }
 
@@ -88,9 +97,11 @@ body {
 /*------------------------------------------------------------------------------------------------*/
 /* Estilos para el contenido principal */
 .content {
-  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+  flex-grow: 1;
+  /* Permite que el contenido ocupe el espacio restante */
   padding: 10px;
-  background-color: #f0f0f0; /* Un color de fondo claro para el contenido */
+  background-color: #f0f0f0;
+  /* Un color de fondo claro para el contenido */
   text-align: center;
 }
 
@@ -147,12 +158,15 @@ body {
 .btn:hover {
   background-color: #e64a19;
 }
+
 .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Para que los elementos Nav estén en línea */
-    justify-content: space-around; /* Distribuye los elementos uniformemente */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* Para que los elementos Nav estén en línea */
+  justify-content: space-around;
+  /* Distribuye los elementos uniformemente */
 
 }
 
@@ -364,15 +378,17 @@ body {
   .team-section {
     padding: 0 10px;
   }
-  .content{
+
+  .content {
     margin: 0px 0%;
-  padding: 10px;
+    padding: 10px;
   }
 }
+
 /* ------------------- Estilos para Contáctanos y Formulario ------------------- */
 
 .content h1 {
-  color: #e91e63; 
+  color: #e91e63;
 }
 
 .form-box {
@@ -384,7 +400,7 @@ body {
   margin: 30px auto;
   border: 1px solid #ccc;
   text-align: left;
-  color: #4a148c; 
+  color: #4a148c;
 }
 
 .form-box label {
@@ -417,4 +433,46 @@ body {
 
 .form-box button:hover {
   background-color: #0056b3;
+}
+
+/* Colores de texto */
+.color-1 {
+  color: #7BDFF2 !important;
+}
+
+.color-2 {
+  color: #B2F7EF !important;
+}
+
+.color-3 {
+  color: #EFF7F6 !important;
+}
+
+.color-4 {
+  color: #F7D6E0 !important;
+}
+
+.color-5 {
+  color: #F2B5D4 !important;
+}
+
+/* Fondos */
+.fondo-1 {
+  background-color: #7BDFF2 !important;
+}
+
+.fondo-2 {
+  background-color: #B2F7EF !important;
+}
+
+.fondo-3 {
+  background-color: #EFF7F6 !important;
+}
+
+.fondo-4 {
+  background-color: #F7D6E0 !important;
+}
+
+.fondo-5 {
+  background-color: #F2B5D4 !important;
 }
