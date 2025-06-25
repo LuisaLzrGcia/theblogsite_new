@@ -418,3 +418,27 @@ body {
 .fondo-5 {
   background-color: #f2b5d4 !important;
 }
+
+/* Estilos Base */
+.contenedor-imagen .imagen-mobile {
+  display: none; /* Oculta la imagen de móvil por defecto */
+}
+
+.contenedor-imagen .imagen-desktop {
+  display: block; /* Muestra la imagen de desktop por defecto */
+  width: 100%;    /* Asegura que la imagen sea responsiva */
+  height: auto;
+}
+
+/* Media Query para dispositivos móviles (ej. pantallas de hasta 768px de ancho) */
+@media (max-width: 768px) {
+  .contenedor-imagen .imagen-desktop {
+    display: none; /* Oculta la imagen de desktop en pantallas pequeñas */
+  }
+
+  .contenedor-imagen .imagen-mobile {
+    display: block; /* Muestra la imagen de móvil en pantallas pequeñas */
+    width: 100%;     /* Asegura que la imagen sea responsiva */
+    height: auto;
+  }
+}
