@@ -418,3 +418,17 @@ body {
 .form-box button:hover {
   background-color: #0056b3;
 }
+
+/* Colores de texto */
+.color-1 { color: #7BDFF2; }   /* Azul claro */
+.color-2 { color: #B2F7EF; }   /* Verde menta */
+.color-3 { color: #EFF7F6; }   /* Blanco suave */
+.color-4 { color: #F7D6E0; }   /* Rosa claro */
+.color-5 { color: #F2B5D4; }   /* Rosa más intenso */
+
+/* Fondos */
+.fondo-1 { background-color: #7BDFF2; }
+.fondo-2 { background-color: #B2F7EF; }
+.fondo-3 { background-color: #EFF7F6; }
+.fondo-4 { background-color: #F7D6E0; }
+.fondo-5 { background-color: #F2B5D4; }
