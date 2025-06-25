@@ -386,35 +386,48 @@ body {
 }
 
 /* Colores de texto */
-.color-1 {
-  color: #7bdff2 !important;
-} /* Azul claro */
-.color-2 {
-  color: #b2f7ef !important;
-} /* Verde menta */
-.color-3 {
-  color: #eff7f6 !important;
-} /* Blanco suave */
-.color-4 {
-  color: #f7d6e0 !important;
-} /* Rosa claro */
-.color-5 {
-  color: #f2b5d4 !important;
-} /* Rosa más intenso */
+  .color-1 { color: #7BDFF2; }
+  .color-2 { color: #B2F7EF; }
+  .color-3 { color: #EFF7F6; }
+  .color-4 { color: #F7D6E0; }
+  .color-5 { color: #F2B5D4; }
 
-/* Fondos */
-.fondo-1 {
-  background-color: #7bdff2 !important;
+  /* Fondos */
+  .fondo-1 { background-color: #7BDFF2; }
+  .fondo-2 { background-color: #B2F7EF; }
+  .fondo-3 { background-color: #EFF7F6; }
+  .fondo-4 { background-color: #F7D6E0; }
+  .fondo-5 { background-color: #F2B5D4; }
+
+.nombre-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #D63384; /* opcional: color atractivo */
 }
-.fondo-2 {
-  background-color: #b2f7ef !important;
+
+/* Estilos Base */
+.contenedor-imagen .imagen-mobile {
+  display: none; /* Oculta la imagen de móvil por defecto */
 }
-.fondo-3 {
-  background-color: #eff7f6 !important;
+
+.contenedor-imagen .imagen-desktop {
+  display: block; /* Muestra la imagen de desktop por defecto */
+  width: 100%;    /* Asegura que la imagen sea responsiva */
+  height: auto;
 }
-.fondo-4 {
-  background-color: #f7d6e0 !important;
+
+/* Media Query para dispositivos móviles (ej. pantallas de hasta 768px de ancho) */
+@media (max-width: 1200px) {
+  .contenedor-imagen .imagen-desktop {
+    display: none; /* Oculta la imagen de desktop en pantallas pequeñas */
+  }
+
+  .contenedor-imagen .imagen-mobile {
+    display: block; /* Muestra la imagen de móvil en pantallas pequeñas */
+    width: 100%;     /* Asegura que la imagen sea responsiva */
+    height: auto;
+    margin-bottom: 15px;
+  }
 }
-.fondo-5 {
-  background-color: #f2b5d4 !important;
-}
+
