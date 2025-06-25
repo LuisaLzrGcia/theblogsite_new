@@ -384,34 +384,34 @@ body {
 
 /* Colores de texto */
 .color-1 {
-  color: #7bdff2;
+  color: #7bdff2 !important;
 } /* Azul claro */
 .color-2 {
-  color: #b2f7ef;
+  color: #b2f7ef !important;
 } /* Verde menta */
 .color-3 {
-  color: #eff7f6;
+  color: #eff7f6 !important;
 } /* Blanco suave */
 .color-4 {
-  color: #f7d6e0;
+  color: #f7d6e0 !important;
 } /* Rosa claro */
 .color-5 {
-  color: #f2b5d4;
+  color: #f2b5d4 !important;
 } /* Rosa más intenso */
 
 /* Fondos */
 .fondo-1 {
-  background-color: #7bdff2;
+  background-color: #7bdff2 !important;
 }
 .fondo-2 {
-  background-color: #b2f7ef;
+  background-color: #b2f7ef !important;
 }
 .fondo-3 {
-  background-color: #eff7f6;
+  background-color: #eff7f6 !important;
 }
 .fondo-4 {
-  background-color: #f7d6e0;
+  background-color: #f7d6e0 !important;
 }
 .fondo-5 {
-  background-color: #f2b5d4;
+  background-color: #f2b5d4 !important;
 }
