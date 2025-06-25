@@ -1,0 +1,420 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Asegura que el footer se quede en la parte inferior */
+  min-height: 100vh; /* Asegura que el footer se quede en la parte inferior */
+}
+
+/*------------------------------------------navegador------------------------------------------------------*/
+/* Fondo general pastel azul */
+.navbar {
+  background-color: #d0e8f2;
+  /* Azul pastel claro */
+  background-color: #66dfdf; /* Azul pastel claro */
+
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(128, 179, 255, 0.3);
+}
+
+/* Contenedor de los enlaces */
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Estilos base para todos los enlaces */
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #555; /* Gris suave */
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Colores individuales por botón */
+.navbar nav ul li:nth-child(1) a:hover {
+  background-color: #fce1e4; /* Rosa pastel */
+  color: #a94442;
+}
+
+.navbar nav ul li:nth-child(2) a:hover {
+  background-color: #fdf3c6; /* Amarillo pastel */
+  color: #a57d00;
+}
+
+.navbar nav ul li:nth-child(3) a:hover {
+  background-color: #d4f4e1; /* Verde agua pastel */
+  color: #3c8c76;
+}
+
+/* Estilo para botón activo */
+.navbar-active {
+
+  background-color: #cfe2ff; /* Azul pastel más fuerte */
+  color: #004085;
+  border-bottom: 3px solid #94c2f0;
+}
+.logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin-left: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: #94c2f0; /* Fondo azul pastel igual que el navbar */
+
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/* Estilos para el contenido principal */
+.content {
+  flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+  padding: 10px;
+  background-color: #f0f0f0; /* Un color de fondo claro para el contenido */
+  text-align: center;
+}
+
+/* Sección  home*/
+.seccion-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 50px 20px; */
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  /* margin: 50px 20px; */
+}
+
+.contenido-left {
+  flex: 1;
+  /* margin-right: 20px; */
+}
+
+.contenido-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.contenido-right {
+  flex: 1.5;
+}
+
+.contenido-right h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.contenido-right-texto {
+  margin-bottom: 60px;
+}
+
+.contenido-right p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para que los elementos Nav estén en línea */
+    justify-content: space-around; /* Distribuye los elementos uniformemente */
+
+}
+
+/* Estilos base para todos los enlaces */
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #555;
+  /* Gris suave */
+  font-weight: bold;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Colores individuales por botón */
+.navbar nav ul li:nth-child(1) a:hover {
+  background-color: #ffffff;
+  /* Rosa pastel */
+  color: #a94442;
+}
+
+.navbar nav ul li:nth-child(2) a:hover {
+  background-color: #fdf3c6;
+  /* Amarillo pastel */
+  color: #a57d00;
+}
+
+.navbar nav ul li:nth-child(3) a:hover {
+  background-color: #d4f4e1;
+  /* Verde agua pastel */
+  color: #3c8c76;
+}
+
+/* Estilo para botón activo */
+.navbar-active {
+
+  background-color: #85abe4;
+  /* Azul pastel más fuerte */
+  color: #004085;
+  border-bottom: 3px solid #94c2f0;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  margin-left: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  background-color: #94c2f0;
+  /* Fondo azul pastel igual que el navbar */
+
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+/* Estilos para el contenido principal */
+.content {
+  flex-grow: 1;
+  /* Permite que el contenido ocupe el espacio restante */
+  margin: 10px 10%;
+  padding: 10px;
+  border-radius: 8px;
+  /* Un color de fondo claro para el contenido */
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: rgb(255, 214, 234);
+  color: rgb(103, 34, 34);
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Sección  home*/
+.seccion-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 50px 20px; */
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  /* margin: 50px 20px; */
+}
+
+.contenido-left {
+  flex: 1;
+  /* margin-right: 20px; */
+}
+
+.contenido-left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.contenido-right {
+  flex: 1.5;
+}
+
+.contenido-right h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.contenido-right-texto {
+  margin-bottom: 60px;
+}
+
+.contenido-right p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: #ff5722;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #e64a19;
+}
+
+.about-section {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  text-align: center;
+  color: #333;
+}
+
+.about-section h1 {
+  color: #E57766;
+  font-size: 2rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+/* Tarjetas del equipo */
+.team-section {
+  text-align: center;
+}
+
+.team-section h2 {
+  color: #DE8CA2;
+  margin-bottom: 20px;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.team-card {
+  background-color: #ffffff;
+  border: 2px solid #F5D1DD;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  width: 280px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.team-card:hover {
+  transform: scale(1.03);
+}
+
+.team-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.team-card h3 {
+  margin: 0.5rem 0;
+  color: #EA9696;
+}
+
+.team-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+
+  .about-section,
+  .team-section {
+    padding: 0 10px;
+  }
+  .content{
+    margin: 0px 0%;
+  padding: 10px;
+  }
+}
+/* ------------------- Estilos para Contáctanos y Formulario ------------------- */
+
+.content h1 {
+  color: #e91e63; 
+}
+
+.form-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #4a148c; 
+}
+
+.form-box label {
+  color: #009688;
+  font-weight: bold;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  color: #3e2723;
+}
+
+.form-box button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-box button:hover {
+  background-color: #0056b3;
+}
