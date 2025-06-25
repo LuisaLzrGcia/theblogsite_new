@@ -31,7 +31,7 @@
                         <h5 class="text-center mb-3">Anuncios</h5>
                         <div class="text-center">
                             <p class="small text-muted">Espacio publicitario</p>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,8 @@
                             <!-- Bloque centrado -->
                             <div class="text-center mb-4">
                                 <h1 class="fw-bold color-1">Contáctanos</h1>
-                                <p class="fs-5">¿Tienes alguna duda o sugerencia? Puedes escribirnos a través de los siguientes medios:</p>
+                                <p class="fs-5">¿Tienes alguna duda o sugerencia? Puedes escribirnos a través de los
+                                    siguientes medios:</p>
                                 <p class="mb-1"><strong>Correo electrónico:</strong> JavaWorks@blog.com</p>
                                 <p><strong>Teléfono:</strong> +52 55 1234 5678</p>
                             </div>
@@ -55,7 +56,8 @@
                                 <!-- ALERTA -->
                                 <div id="alerta" class="alert alert-success alert-dismissible fade d-none" role="alert">
                                     Mensaje enviado
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                        aria-label="Cerrar"></button>
                                 </div>
 
                                 <h2 class="mb-4 color-5">Formulario de contacto</h2>
@@ -71,10 +73,12 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="mensaje" class="form-label">Mensaje</label>
-                                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                                        <textarea class="form-control" id="mensaje" name="mensaje" rows="4"
+                                            required></textarea>
                                     </div>
                                     <div class="d-grid">
-                                        <button type="submit" class="btn text-white" style="background-color: #F2B5D4;">Enviar</button>
+                                        <button type="submit" class="btn text-white"
+                                            style="background-color: #F2B5D4;">Enviar</button>
                                     </div>
                                 </form>
                             </div>
@@ -86,10 +90,32 @@
                 <!-- Columna derecha - Noticias -->
                 <div class="col-xl-2 col-lg-12">
                     <div class="p-3 mb-3" style="background-color: #f8f9fa; border-radius: 8px; min-height: 200px;">
-                        <h5 class="text-center mb-3">Noticias</h5>
-                        <div class="text-center">
-                            <p class="small text-muted">Últimas noticias</p>
-                            
+                        <h2 class="text-center mb-2">🍭 Novedades Click N' Sweet</h2>
+                        <div class="col m-3 d-grid gap-1">
+                            <!-- Noticia 1 -->
+                            <div class="row">
+                                <div class="card h-100 shadow-sm fondo-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">🎉 Promo Día del Niño 🎉</h5>
+                                        <p class="card-text">Obtén un <strong>15%</strong> de descuento en dulces
+                                            tradicionales con el
+                                            cupón <strong class="badge text-black fondo-1 fs-6 badge ">DULCE15</strong>.
+                                        </p>
+                                        <p class="m-0" style="font-size: 12px;">Válido hasta el 30 de abril.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Noticia 2 -->
+                            <div class="row">
+                                <div class="card h-100 shadow-sm fondo-3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">📦 ¡Envíos a todo México!</h5>
+                                        <p class="card-text">No importa si estás en CDMX o en un pueblito mágico. Tus
+                                            dulces favoritos te llegan directo a casa 🏠.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,7 +134,7 @@
 
     <!-- Scripts -->
     <script>
-        document.getElementById('formularioContacto').addEventListener('submit', function(e) {
+        document.getElementById('formularioContacto').addEventListener('submit', function (e) {
             e.preventDefault();
             const alerta = document.getElementById('alerta');
             alerta.classList.remove('d-none');
